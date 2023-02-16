@@ -25,15 +25,21 @@ img {
 	height: auto;
 }
 
-#main-header {
+#main-header{
 	background: #333;
-	opacity: 0.8;
-	color: white;
+	color: rgb(255, 255, 255);
 	height: 80px;
+	opacity: 0.8;
+	background: #333;
+              color: white;
+              height: 80px;
+              
+              width: 100%; 
+              left: 0; 
+              top: 0;
+              position: fixed;
+
 }	
-	#main-header a {
-		color: white;
-	}
 
 /*
  * Logo
@@ -44,7 +50,7 @@ img {
 	text-decoration: none;
 }
 	#logo-header:hover {
-		color: #0b76a6;
+		color: #ffffff;
 	}
 	
 	#logo-header .site-name {
@@ -82,7 +88,7 @@ nav {
 			}
 			
 				nav ul li a:hover {
-					background: #0b76a6;
+					background: red;
 				}
         #main-content {
           background: white;
@@ -102,10 +108,11 @@ nav {
             text-align: center;
             padding: 20px;
             margin-top: 40px;
+			display: flex;
+			flex-wrap:nowrap;
           }
             #main-footer div {
-				
-				float: left;
+				color: whitesmoke;
 				padding-left: 0px;
 				margin-left: 5%;
 				
@@ -113,15 +120,9 @@ nav {
             }
             
             #main-footer a {
-              color: white;
+              color: rgb(255, 255, 255);
             }
-            #main-header {
-              background: #333;
-              color: white;
-              height: 80px;
-              
-              width: 100%; 
-              left: 0; 
-              top: 0;
-              position: fixed;
-			}
+			
+			
+            
+			
